@@ -213,4 +213,25 @@ body {
     width: 220px;
   }
 
+}@media screen and (max-width: 768px) {
+
+  .painel {
+    padding: 20px;
+  }
+
+  .tituloRainbow {
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+  .gridArtistas {
+    grid-template-columns: 1fr !important;
+
+    justify-items: center;
+  }
+
+  .cardArtista {
+    width: 220px !important;
+  }
+
 }
