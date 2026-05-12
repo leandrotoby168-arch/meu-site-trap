@@ -94,15 +94,15 @@ body {
 }/* GRID DOS ARTISTAS */
 
 .gridArtistas {
-  margin-top: 60px;
+  margin-top: 50px;
 
   display: grid;
 
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(2, 200px);
 
   justify-content: center;
 
-  gap: 35px;
+  gap: 25px;
 }
 
 /* BALÃO / CARD */
