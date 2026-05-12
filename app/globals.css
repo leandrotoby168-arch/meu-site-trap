@@ -193,4 +193,24 @@ body {
 
 .cardArtista button:hover {
   background: #18a74a;
+}/* RESPONSIVIDADE CELULAR */
+
+@media (max-width: 768px) {
+
+  .tituloRainbow {
+    font-size: 32px;
+
+    padding: 0 20px;
+  }
+
+  .gridArtistas {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+
+  .cardArtista {
+    width: 220px;
+  }
+
 }
